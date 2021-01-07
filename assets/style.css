@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Roboto:wght@500&display=swap");
+body {
+  background: #1b1b1e;
+}
+.floating-num {
+  position: absolute;
+  width: 82px;
+  height: 150px;
+  left: 447px;
+  top: 210px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  line-height: 150px;
+  /* identical to box height */
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.2;
+}
+.nav-list-1 {
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  right: 0;
+  top: 267px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: right;
+  color: #ffffff;
+  transform: rotate(90deg);
+}
+.nav-list-2 {
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  right: 0;
+  top: 356px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: right;
+  color: #ffffff;
+  transform: rotate(90deg);
+}
+.nav-list-3 {
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  right: 0;
+  top: 472px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: right;
+  color: #ffffff;
+  transform: rotate(90deg);
+}
+.nav-list-4 {
+  position: absolute;
+  width: 39px;
+  height: 24px;
+  right: 0;
+  top: 589px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: right;
+  color: #ffffff;
+  transform: rotate(90deg);
+}
+.hello-1 {
+  position: absolute;
+  width: 504px;
+  height: 24px;
+  left: 547px;
+  top: 302px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.name-1 {
+  position: absolute;
+  width: 484px;
+  height: 220px;
+  left: 547px;
+  top: 280px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 100%;
+  /* or 110px */
+
+  color: #ffffff;
+}
+.name-1 > span {
+  color: #db4747;
+  letter-spacing: 5px;
+}
+.content-1 {
+  position: absolute;
+  width: 564px;
+  height: 108px;
+  left: 547px;
+  top: 586px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.ellipse-1 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 200px;
+  top: 500px;
+  background: #f2502c;
+  mix-blend-mode: lighten;
+  border-radius: 50%;
+}
+.ellipse-2 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  left: 1017px;
+  top: 302px;
+  background: #db4747;
+  mix-blend-mode: lighten;
+}
+.flex-left span {
+  position: absolute;
+  width: 113px;
+  height: 21px;
+  left: 547px;
+  top: 737px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #db4747;
+}
+.flex-line {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 680px;
+  top: 747px;
+
+  border: 1px solid #ffffff;
+}
+.vector-1 {
+  position: absolute;
+  right: 40%;
+  /* right: 12.5%; */
+  top: 730px;
+  bottom: 62.5%;
+
+  color: #ffffff;
+}
+.vector-2 {
+  position: absolute;
+  right: 35%;
+  /* right: 12.5%; */
+  top: 730px;
+  bottom: 62.5%;
+
+  color: #ffffff;
+}
