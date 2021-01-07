@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Roboto:wght@500&display=swap");
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   background: #1b1b1e;
@@ -7,17 +10,21 @@ body {
   margin: 0 auto;
   position: relative;
 }
+.header {
+  display: flex;
+  width: 100%;
+}
 a {
   text-decoration: none;
   color: inherit;
 }
-#container-1,
-#Portfolio {
-  position: relative;
+#Home,
+#Portfolio,
+#Services {
   margin: 0 auto;
 }
+
 .floating-num {
-  position: absolute;
   width: 82px;
   height: 150px;
   left: 447px;
@@ -32,12 +39,12 @@ a {
   color: #ffffff;
   opacity: 0.2;
 }
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 .nav-list-1 {
-  position: absolute;
-  width: 39px;
-  height: 24px;
-  right: 0;
-  top: 267px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -47,13 +54,10 @@ a {
   text-align: right;
   color: #ffffff;
   transform: rotate(90deg);
+  transform-origin: top right;
+  margin-bottom: 5px;
 }
 .nav-list-2 {
-  position: absolute;
-  width: 39px;
-  height: 24px;
-  right: 0;
-  top: 356px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -63,13 +67,10 @@ a {
   text-align: right;
   color: #ffffff;
   transform: rotate(90deg);
+  transform-origin: top right;
+  margin-bottom: 5px;
 }
 .nav-list-3 {
-  position: absolute;
-  width: 39px;
-  height: 24px;
-  right: 0;
-  top: 472px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -79,13 +80,9 @@ a {
   text-align: right;
   color: #ffffff;
   transform: rotate(90deg);
+  transform-origin: top right;
 }
 .nav-list-4 {
-  position: absolute;
-  width: 39px;
-  height: 24px;
-  right: 0;
-  top: 589px;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -95,9 +92,9 @@ a {
   text-align: right;
   color: #ffffff;
   transform: rotate(90deg);
+  transform-origin: top right;
 }
 .hello-1 {
-  position: absolute;
   width: 504px;
   height: 24px;
   left: 547px;
@@ -113,7 +110,6 @@ a {
   color: #ffffff;
 }
 .name-1 {
-  position: absolute;
   width: 484px;
   height: 220px;
   left: 547px;
@@ -132,8 +128,7 @@ a {
   color: #db4747;
   letter-spacing: 5px;
 }
-.content-1 {
-  position: absolute;
+.flex-med-content {
   width: 564px;
   height: 108px;
   left: 547px;
@@ -148,7 +143,6 @@ a {
   color: #ffffff;
 }
 .ellipse-1 {
-  position: absolute;
   width: 94px;
   height: 94px;
   left: 200px;
@@ -156,18 +150,18 @@ a {
   background: #f2502c;
   mix-blend-mode: lighten;
   border-radius: 50%;
+  position: absolute;
 }
 .ellipse-2 {
-  position: absolute;
   width: 94px;
   height: 94px;
   left: 1017px;
   top: 302px;
   background: #db4747;
   mix-blend-mode: lighten;
+  position: absolute;
 }
 .flex-left span {
-  position: absolute;
   width: 113px;
   height: 21px;
   left: 547px;
@@ -183,7 +177,6 @@ a {
   color: #db4747;
 }
 .flex-line {
-  position: absolute;
   width: 70px;
   height: 0px;
   left: 680px;
@@ -191,308 +184,7 @@ a {
 
   border: 1px solid #ffffff;
 }
-.vector-1 {
-  position: absolute;
-  right: 40%;
-  /* right: 12.5%; */
-  top: 730px;
-  bottom: 62.5%;
-
-  color: #ffffff;
-}
-.vector-2 {
-  position: absolute;
-  right: 35%;
-  /* right: 12.5%; */
-  top: 730px;
-  bottom: 62.5%;
-
-  color: #ffffff;
-}
-.floating-num-2 {
-  position: absolute;
-  width: 116px;
-  height: 80px;
-  left: 169px;
-  top: 909px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 100px;
-  line-height: 80%;
-  /* identical to box height, or 80px */
-
-  text-align: right;
-
-  color: #ffffff;
-
-  opacity: 0.2;
-}
-.recent-2 {
-  position: absolute;
-  width: 504px;
-  height: 24px;
-  left: 286px;
-  top: 934px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.porfolio-2 {
-  position: absolute;
-  width: 430px;
-  height: 110px;
-  left: 286px;
-  top: 920px;
-
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 110px;
-  line-height: 100%;
-  /* identical to box height, or 110px */
-
-  color: #ffffff;
-}
-.case-1 {
-  position: absolute;
-  width: 480px;
-  height: 279px;
-  left: 0px;
-  top: 1154px;
-  background-repeat: no-repeat;
-  background: url("https://placekitten.com/480/279");
-}
-.case-2 {
-  position: absolute;
-  width: 480px;
-  height: 279px;
-  left: 0px;
-  top: 1433px;
-  background-repeat: no-repeat;
-  background: url("https://placekitten.com/480/280");
-}
-.case-3 {
-  position: absolute;
-  width: 870px;
-  height: 558px;
-  left: 480px;
-  top: 1154px;
-
-  background: linear-gradient(
-      180deg,
-      #000000 0%,
-      rgba(0, 0, 0, 0) 48.44%,
-      #000000 100%
-    ),
-    url("https://placekitten.com/1080/600");
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.case-3-btn {
-  position: absolute;
-  width: 212px;
-  height: 51px;
-  left: 60px;
-  top: 430px;
-  background: #db4747;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  text-align: center;
-  border: 0;
-  color: #ffffff;
-}
-.html {
-  position: absolute;
-  width: 132px;
-  height: 40px;
-  left: 60px;
-  top: 152px;
-
-  background: rgba(0, 0, 0, 0.5);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 80%;
-  /* identical to box height, or 16px */
-  color: #ffffff;
-}
-.html span,
-.html-6 span {
-  position: absolute;
-  padding: 12px 20px;
-  /* left: 80px;
-  top: 154px; */
-  text-align: center;
-}
-.rb {
-  position: absolute;
-  width: 169px;
-  height: 40px;
-  left: 210px;
-  top: 152px;
-
-  background: rgba(0, 0, 0, 0.5);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 80%;
-  /* identical to box height, or 16px */
-  color: #ffffff;
-}
-.rb span,
-.rb-6 span {
-  position: absolute;
-  padding: 12px 20px;
-  /* left: 80px;
-  top: 154px; */
-  text-align: center;
-}
-.js {
-  position: absolute;
-  width: 140px;
-  height: 40px;
-  left: 400px;
-  top: 152px;
-
-  background: rgba(0, 0, 0, 0.5);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 80%;
-  /* identical to box height, or 16px */
-  color: #ffffff;
-}
-.js span {
-  position: absolute;
-  padding: 12px 20px;
-  /* left: 80px;
-  top: 154px; */
-  text-align: center;
-}
-.case-3-h {
-  position: absolute;
-  width: 711px;
-  height: 48px;
-  left: 60px;
-  top: 30px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 60px;
-  line-height: 80%;
-  /* identical to box height, or 48px */
-
-  color: #ffffff;
-}
-
-.case-4 {
-  position: absolute;
-  width: 960px;
-  height: 558px;
-  left: 0px;
-  top: 1712px;
-
-  background: url("https://placekitten.com/1080/601");
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.case-5 {
-  position: absolute;
-  width: 390px;
-  height: 279px;
-  left: 960px;
-  top: 1712px;
-
-  background: url("https://placekitten.com/480/280");
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.case-6 {
-  position: absolute;
-  width: 390px;
-  height: 279px;
-  left: 960px;
-  top: 1991px;
-
-  background: linear-gradient(
-      180deg,
-      #000000 0%,
-      rgba(0, 0, 0, 0) 48.44%,
-      #000000 100%
-    ),
-    url("https://placekitten.com/480/280");
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.case-6-h {
-  position: absolute;
-  width: 400px;
-  height: 40px;
-  left: 40px;
-  top: 10px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 100%;
-  /* identical to box height, or 40px */
-
-  color: #ffffff;
-}
-.case-6-btn {
-  position: absolute;
-  width: 212px;
-  height: 51px;
-  left: 42px;
-  top: 200px;
-  background: #db4747;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  text-align: center;
-  border: 0;
-  color: #ffffff;
-}
-.html-6 {
-  position: absolute;
-  width: 132px;
-  height: 40px;
-  left: 42px;
-  top: 100px;
-  background: rgba(0, 0, 0, 0.5);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 80%;
-  color: #ffffff;
-}
-.rb-6 {
-  position: absolute;
-  width: 169px;
-  height: 40px;
-  left: 190px;
-  top: 100px;
-  background: rgba(0, 0, 0, 0.5);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 80%;
-  /* identical to box height, or 16px */
-  color: #ffffff;
+.main-grid {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
 }
