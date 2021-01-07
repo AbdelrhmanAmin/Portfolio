@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Roboto:wght@500&display=swap");
 body {
   background: #1b1b1e;
+  max-width: 1440px;
+  max-height: 100vh;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#container-1 {
+  position: relative;
 }
 .floating-num {
   position: absolute;
