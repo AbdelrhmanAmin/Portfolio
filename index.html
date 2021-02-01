@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="assets/style.css" />
     <link
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
@@ -54,7 +60,7 @@
             <a href="#Portfolio">Porfolio</a>
           </li>
           <li class="nav-list-3"><a href="#Services">Services</a></li>
-          <li class="nav-list-4"><a href="">Contact</a></li>
+          <li class="nav-list-4"><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -69,30 +75,49 @@
       <div class="flex-med-content-2">
         <div class="first-grid">
           <div class="first-grid-flex">
-            <div class="grid-1"></div>
-            <div class="grid-2"></div>
+            <a
+              href="https://github.com/AbdelrhmanAmin/ror-social-media"
+              target="_blank"
+              class="grid-1"
+            ></a>
+            <a
+              target="_blank"
+              href="https://github.com/AbdelrhmanAmin/TicTacToe-Ruby"
+              class="grid-2"
+            ></a>
           </div>
           <div class="grid-3">
-            <h3 class="p-3">PROJECT NAME</h3>
+            <h3 class="p-3 text-danger text-uppercase">Kwitter</h3>
             <ul class="list-3">
               <li>HTML/CSS</li>
               <li>Ruby on Rails</li>
-              <li>JavaScript</li>
             </ul>
-            <button>See this project</button>
+            <a
+              href="https://fierce-depths-10676.herokuapp.com/"
+              target="_blank"
+            >
+              See this project
+            </a>
           </div>
         </div>
         <div class="second-grid">
-          <div class="grid-3"></div>
+          <a
+            href="https://raw.githack.com/AbdelrhmanAmin/HTML-CSS-Capstone/feature-branch/index.html"
+            target="_blank"
+            class="grid-4 position-relative"
+          ></a>
           <div class="first-grid-flex">
-            <div class="grid-1"></div>
-            <div class="grid-2">
-              <h3 class="p-2">PROJECT NAME</h3>
+            <div class="grid-5">
+              <h3 class="p-2 text-dark">TNW CLONE</h3>
               <ul class="list-2">
                 <li>HTML/CSS</li>
-                <li>Ruby on Rails</li>
+                <a
+                  href="https://raw.githack.com/MrkarlosM/tnw-clone/main/index.html"
+                  target="_blank"
+                  class="btn-5"
+                  >See this project</a
+                >
               </ul>
-              <button>See this project</button>
             </div>
           </div>
         </div>
@@ -101,8 +126,10 @@
     <div id="Services">
       <div class="left-boxes">
         <div>
-          <h1>🐈</h1>
-          <h4>Languages</h4>
+          <div class="icon-1">
+            <i class="fas fa-hashtag fa-2x"></i>
+          </div>
+          <strong class="mx-4 h4">Languages</strong>
           <ul>
             <li>JavaScript</li>
             <li>Ruby</li>
@@ -111,33 +138,41 @@
           </ul>
         </div>
         <div>
-          <h1>🐈</h1>
-          <h4>Languages</h4>
+          <div class="icon-2">
+            <i class="fas fa-plus-circle fa-2x"></i>
+          </div>
+          <strong class="mx-4 h4">FrameWorks</strong>
           <ul>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>Bootsrap</li>
+            <li>Ruby On Rails</li>
+            <li>ReactJS</li>
+            <li>Rspec</li>
           </ul>
         </div>
         <div>
-          <h1>🐈</h1>
-          <h4>Languages</h4>
+          <div class="icon-3">
+            <i class="fas fa-lightbulb fa-2x"></i>
+          </div>
+          <strong class="mx-4 h4">Skills</strong>
           <ul>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>Github</li>
+            <li>Terminal</li>
+            <li>
+              Collaborative <br />
+              Programming
+            </li>
           </ul>
         </div>
         <div>
-          <h1>🐈</h1>
-          <h4>Languages</h4>
+          <div class="icon-4">
+            <i class="far fa-heart fa-2x"></i>
+          </div>
+          <strong class="mx-4 h4">Soft Skills</strong>
           <ul>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>English Fluency</li>
+            <li>Professional Attitude</li>
+            <li>Team Work</li>
+            <li>Leadership</li>
           </ul>
         </div>
       </div>
@@ -155,8 +190,33 @@
           you see and have a project you need coded, don’t hesitate and contact
           me.
         </p>
-        <button class="resume-btn">Get My Resume</button>
+        <a
+          href="https://docs.google.com/document/d/1QG_kNASS5WT_ucyhR0x65yQadyEwSwTlNz1L5v7YFgI/edit?usp=sharing"
+          target="_blank"
+          class="resume-btn"
+          >Get My Resume</a
+        >
       </div>
+    </div>
+    <div id="Contact" class="h-100">
+      <ul
+        class="d-flex w-100 justify-content-center text-white list-unstyled p-5 m-0"
+      >
+        <li class="mr-3">
+          <a target="_blank" href="https://www.facebook.com/AliZien1999/"
+            ><i class="fab fa-facebook-square fa-3x"></i
+          ></a>
+        </li>
+        <li class="mr-3">
+          <a target="_blank" href="https://github.com/AbdelrhmanAmin"
+            ><i class="fab fa-github-square fa-3x"></i
+          ></a>
+        </li>
+        <li class="mr-3 hoverable d-flex align-items-center">
+          <i class="fas fa-envelope fa-3x mr-3"></i>
+          <strong class="test text-info"> MaxHD213@gmail.com </strong>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
