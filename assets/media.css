@@ -1,0 +1,79 @@
+@media only screen and (max-width: 767px) {
+  .main-grid {
+    display: block;
+  }
+  .main {
+    width: 0;
+  }
+  .flex-top-content {
+    display: flex;
+    justify-content: center;
+    width: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  .n-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .hello-1 {
+    margin: -15px 10px;
+  }
+  .floating-num {
+    margin-bottom: -15px;
+  }
+  .name-1 {
+    margin: 10px 5px;
+    width: 276px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+  .flex-med-content {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    margin: 0 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+  .ellipse-1 {
+    width: 75px;
+    height: 75px;
+    left: 243px;
+    top: 65px;
+    background: #f2502c;
+    mix-blend-mode: lighten;
+    border-radius: 50%;
+    position: absolute;
+  }
+  .ellipse-2 {
+    display: none;
+  }
+  .flex-work-1 {
+    width: 145px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    top: 750px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex-line {
+    left: 0;
+    top: 79%;
+    height: 125px;
+    margin-left: 80px;
+  }
+  .flex-left {
+    margin-bottom: 35px;
+  }
+}

@@ -5,9 +5,6 @@ html {
 html,
 body {
   background: #1b1b1e !important;
-  max-width: 1440px;
-  margin: 0 auto;
-  position: relative;
 }
 
 a {
@@ -56,6 +53,73 @@ a {
   display: flex;
   align-items: baseline;
   margin: -40px 20px;
+}
+
+.hello-1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.hello-2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.hello-3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.name-1 {
+  margin: 0;
+  width: 484px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 100%;
+  /* or 110px */
+
+  color: #ffffff;
+}
+.name-2 {
+  margin: 0 25px;
+  width: 484px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 100%;
+  /* or 110px */
+
+  color: #ffffff;
+}
+.name-3 {
+  margin: 0 25px;
+  width: 484px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 100%;
+  /* or 110px */
+
+  color: #ffffff;
 }
 .floating-num {
   width: 82px;
@@ -168,72 +232,7 @@ a {
   transform: rotate(90deg);
   transform-origin: top right;
 }
-.hello-1 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
 
-  color: #ffffff;
-}
-.name-1 {
-  margin: 0;
-  width: 484px;
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 110px;
-  line-height: 100%;
-  /* or 110px */
-
-  color: #ffffff;
-}
-.hello-2 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.hello-3 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.name-2 {
-  margin: 0 25px;
-  width: 484px;
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 110px;
-  line-height: 100%;
-  /* or 110px */
-
-  color: #ffffff;
-}
-.name-3 {
-  margin: 0 25px;
-  width: 484px;
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 110px;
-  line-height: 100%;
-  /* or 110px */
-
-  color: #ffffff;
-}
 .name-1 > span {
   color: #db4747;
   letter-spacing: 5px;
