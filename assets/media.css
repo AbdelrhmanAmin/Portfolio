@@ -17,11 +17,21 @@
     flex-direction: column;
     margin: 0;
   }
-  .hello-1 {
-    margin: -15px 10px;
+  .n-2 {
+    margin: 0;
+    flex-direction: column;
   }
-  .floating-num {
-    margin-bottom: -15px;
+  .floating-num-2 {
+    width: 0;
+    margin: 0 0 -30px 0;
+  }
+  .flex-top-content-2 {
+    display: flex;
+    justify-content: center;
+    width: initial;
+    margin: 0;
+    top: 270px;
+    flex-direction: column;
   }
   .name-1 {
     margin: 10px 5px;
@@ -29,10 +39,30 @@
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 66px;
+    font-size: 50px;
     line-height: 100%;
     color: #ffffff;
   }
+  .name-2 {
+    margin: 0;
+    width: initial;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+  .hello-2 {
+    margin: 0 5px;
+  }
+  .hello-1 {
+    margin: -15px 10px;
+  }
+  .floating-num {
+    margin-bottom: -15px;
+  }
+
   .flex-med-content {
     width: 320px;
     display: flex;
@@ -75,5 +105,20 @@
   }
   .flex-left {
     margin-bottom: 35px;
+  }
+  .first-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 558px 300px;
+  }
+  .second-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px;
+  }
+  .grid-a {
+    background: url("../mock4.png") no-repeat;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
