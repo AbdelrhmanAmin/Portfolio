@@ -53,6 +53,10 @@
     line-height: 100%;
     color: #ffffff;
   }
+  .name-3 {
+    font-size: 50px;
+    width: initial;
+  }
   .hello-2 {
     margin: 0 5px;
   }
@@ -74,6 +78,9 @@
     font-size: 13px;
     line-height: 27px;
     color: #ffffff;
+  }
+  .flex-med-content-3 {
+    width: 200px;
   }
   .ellipse-1 {
     width: 75px;
@@ -120,5 +127,73 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+  .left-boxes {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 150px auto 0 auto;
+  }
+  #Services {
+    width: initial;
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body,
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .ellipse-2 {
+    width: 94px;
+    height: 94px;
+    right: 24%;
+    left: inherit;
+    top: 11%;
+    background: #db4747;
+    mix-blend-mode: lighten;
+    position: absolute;
+  }
+  .main {
+    width: 400px;
+  }
+  .flex-top-content {
+    margin: 0;
+    width: initial;
+  }
+  .grid-a {
+    background: url("../mock4.png") no-repeat;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .left-boxes {
+    margin: 150px auto 0 auto;
+  }
+  .flex-top-content-2 {
+    width: initial;
+    margin: initial;
+  }
+  .n-2 {
+    margin: initial;
+  }
+  .flex-med-content {
+    margin: 0;
+  }
+  .flex-line {
+    left: 57%;
+  }
+  .flex-work-1 {
+    width: 480px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    top: 750px;
+    align-items: center;
+  }
+  #Services {
+    grid-template-columns: 1fr;
+    width: initial;
   }
 }
