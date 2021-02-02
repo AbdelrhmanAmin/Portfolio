@@ -90,7 +90,7 @@
   }
   .flex-work-1 {
     width: 145px;
-    margin: 0;
+    margin: 0 -15px;
     display: flex;
     justify-content: space-around;
     top: 750px;
@@ -99,9 +99,9 @@
   }
   .flex-line {
     left: 0;
-    top: 79%;
+    top: 76%;
     height: 125px;
-    margin-left: 80px;
+    margin-left: 65px;
   }
   .flex-left {
     margin-bottom: 35px;

@@ -345,21 +345,21 @@ a {
   flex-direction: column;
 }
 .grid-1 {
-  background-image: url(https://raw.githubusercontent.com/AbdelrhmanAmin/ror-social-media/developement/img2.png);
+  background-image: url("../mock1.png");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .grid-2 {
-  background-image: url(https://i.stack.imgur.com/3cgFh.png);
+  background-image: url(https://www.printworksmarket.com/thumb/2868/1024x0/PW00397---Classic---Tic-Tac-Toe-pieces.jpg);
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .grid-3 {
-  background-image: url("../mock.jpg");
+  background-image: url("../mock.png");
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
