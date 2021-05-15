@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&family=Roboto:wght@500&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -302,7 +302,7 @@ a {
   height: 70px;
   position: absolute;
   transform: rotate(90deg);
-  left: 75%;
+  left: 71%;
 }
 .flex-work-1 {
   width: 480px;
@@ -345,39 +345,63 @@ a {
   flex-direction: column;
 }
 .grid-1 {
-  background-image: url("../mock1.png");
+  background-image: url('../screen1.png');
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.grid-1-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.grid-1-div div,
+.grid-1-div h2 {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.grid-1-div:hover {
+  background: linear-gradient(180deg, transparent 25%, #000 90%);
+}
+.grid-1-div:hover div,
+.grid-1-div:hover h2 {
+  opacity: 1;
 }
 .grid-2 {
-  background-image: url(https://www.printworksmarket.com/thumb/2868/1024x0/PW00397---Classic---Tic-Tac-Toe-pieces.jpg);
+  background-image: url('../Jumper-boy.png');
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 40%;
+  position: relative;
 }
 .grid-3 {
-  background-image: url("../mock.png");
+  background-image: url('../cat-react-mock.png');
+  background-color: white;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .grid-4 {
-  background-image: url("../mock2.png");
+  background-image: url('../todo-list-mockup2.png');
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .grid-5 {
-  background: url("../mock4.png") no-repeat;
+  background: url('../neko.png') no-repeat;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .p-3 {
   margin: 60px;
@@ -418,7 +442,7 @@ a {
   padding: 12px 20px;
   margin-right: 20px;
 }
-.grid-3 a {
+#repo {
   background-color: #db4747;
   padding: 12px 20px;
   color: white;
@@ -427,7 +451,16 @@ a {
   font-style: normal;
   font-weight: 500;
   border: 0;
-  margin: 200px 0 0 60px;
+}
+#live-demo {
+  background-color: #47db73;
+  padding: 12px 20px;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  border: 0;
 }
 .list-2 > li {
   color: white;
@@ -547,4 +580,18 @@ a {
   position: relative;
   padding: 8px;
   margin: 15px 20px;
+}
+.email {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.email-text {
+  opacity: 0;
+  margin-left: 0;
+  transition: 0.5s ease-in-out;
+}
+.email:hover .email-text {
+  opacity: 1;
+  margin-left: 20px;
 }

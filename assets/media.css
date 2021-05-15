@@ -82,6 +82,21 @@
   .flex-med-content-3 {
     width: 200px;
   }
+  #repo,
+  #live-demo {
+    padding: 15px 5px;
+    font-size: 13px;
+  }
+  .grid-1-div {
+    background: linear-gradient(180deg, transparent 25%, #000 90%);
+  }
+  .grid-1-div div,
+  .grid-1-div h2 {
+    opacity: 1;
+  }
+  .email-text {
+    display: none;
+  }
   .ellipse-1 {
     width: 75px;
     height: 75px;
@@ -121,13 +136,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 300px 300px;
   }
-  .grid-a {
-    background: url("../mock4.png") no-repeat;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
   .left-boxes {
     display: grid;
     grid-template-columns: 1fr;
@@ -160,13 +168,6 @@
   .flex-top-content {
     margin: 0;
     width: initial;
-  }
-  .grid-a {
-    background: url("../mock4.png") no-repeat;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
   }
   .left-boxes {
     margin: 150px auto 0 auto;
