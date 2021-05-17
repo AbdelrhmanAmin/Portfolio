@@ -359,7 +359,8 @@ a {
   height: 100%;
 }
 .grid-1-div div,
-.grid-1-div h2 {
+.grid-1-div h2,
+.grid-1-div span {
   opacity: 0;
   transition: all 0.4s ease-in-out;
 }
@@ -367,7 +368,8 @@ a {
   background: linear-gradient(180deg, transparent 25%, #000 90%);
 }
 .grid-1-div:hover div,
-.grid-1-div:hover h2 {
+.grid-1-div:hover h2,
+.grid-1-div:hover span {
   opacity: 1;
 }
 .grid-2 {
@@ -380,7 +382,7 @@ a {
 }
 .grid-3 {
   background-image: url('../cat-react-mock.png');
-  background-color: white;
+  background-color: #2a2a72;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
