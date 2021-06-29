@@ -344,6 +344,13 @@ a {
   display: flex;
   flex-direction: column;
 }
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5 {
+  border: 3px solid white;
+}
 .grid-1 {
   background-image: url('../screen1.png');
   height: 100%;
@@ -398,7 +405,7 @@ a {
   position: relative;
 }
 .grid-5 {
-  background: url('../neko.png') no-repeat;
+  background: url('../kwitter.jpg') no-repeat;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
